@@ -29,7 +29,7 @@ public struct SirenLookupModel: Decodable {
         }
 
         /// The app's App ID.
-        public let appID: Int
+        public let appID: String
 
         /// The release date for the latest verison of the app.
         public let currentVersionReleaseDate: String

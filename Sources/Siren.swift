@@ -96,7 +96,7 @@ public final class Siren: NSObject {
     public internal(set) var currentAppStoreVersion: String?
 
     internal var updaterWindow: UIWindow?
-    fileprivate var appID: Int?
+    fileprivate var appID: String?
     fileprivate var lastVersionCheckPerformedOnDate: Date?
     fileprivate lazy var alertViewIsVisible: Bool = false
 
